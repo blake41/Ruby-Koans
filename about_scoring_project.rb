@@ -30,6 +30,7 @@ require File.expand_path(File.dirname(__FILE__) + '/edgecase')
 # Your goal is to write the score method.
 
 def score(dice)
+  # try calling array.select { if it works it builds a new array of the true values}
   new_array = []
   sum = 0
   new_dice = dice.sort!.clone
